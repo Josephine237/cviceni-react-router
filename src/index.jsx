@@ -34,11 +34,9 @@ const App = () => {
         <Route path="/products" element={ <Products /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
-
-
-
     </BrowserRouter>
   )
+  // * hvězdička nám zařídí, říká, pro cokoliv jiného než adresy, které jsou zadané zobraz toto, a my tam dáme třeba 404 Not Found
 }
 
 render(<App />, document.querySelector('#app'));
